@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="294dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:text="Dashboard"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txtUserName2"
+        android:layout_width="208dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="37dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <Button
+        android:id="@+id/btnTodo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+        android:text="Todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnGoal"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="41dp"
+        android:text="Goal"
+        app:layout_constraintStart_toEndOf="@+id/btnTodo"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btnCalender"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Calender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTodo" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:text="Time Tracking"
+        app:layout_constraintStart_toEndOf="@+id/btnCalender"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoal" />
+
+    <Button
+        android:id="@+id/btnRelaxation"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
+        android:text="Relaxation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalender" />
+
+    <Button
+        android:id="@+id/btnCommunication"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="45dp"
+        android:text="Communication"
+        app:layout_constraintStart_toEndOf="@+id/btnRelaxation"
+        app:layout_constraintTop_toBottomOf="@+id/btnTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

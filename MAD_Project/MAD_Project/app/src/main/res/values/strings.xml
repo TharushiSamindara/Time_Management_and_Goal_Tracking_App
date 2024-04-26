@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Time Management And Goal Trackig App</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="header_title">Relaxation</string>
+    <string name="button_text">Move</string>
+    <string name="content_description">Relaxation</string>
+</resources>
